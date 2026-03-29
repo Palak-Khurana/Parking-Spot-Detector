@@ -12,23 +12,31 @@ Built with Python and OpenCV, it analyzes parking lot footage and automatically 
 ✓ Custom parking slot selection tool 
 
 ## How it works
-### 1.The parking lot video is analyzed one frame at a time.
-### 2.Several image processing techniques are applied, including:
-  ➔Converting the image to grayscale
-  ➔Applying Gaussian blur
-  ➔Using adaptive thresholding 
-  ➔Applying median blur
-  ➔Performing dilation
-### 3.Each parking space is then evaluated based on pixel intensity.
-### 4.A lower pixel count indicates that the parking spot is available.
-### 5.A higher pixel count means the spot is occupied.
-### 6.The final results are displayed visually on the screen.
+### 1. The parking lot video is analyzed one frame at a time.
+### 2. Several image processing techniques are applied, including:
+  ➔ Converting the image to grayscale
+  
+  ➔ Applying Gaussian blur
+  
+  ➔ Using adaptive thresholding
+  
+  ➔ Applying median blur
+  
+  ➔ Performing dilation
+### 3. Each parking space is then evaluated based on pixel intensity.
+### 4. A lower pixel count indicates that the parking spot is available.
+### 5. A higher pixel count means the spot is occupied.
+### 6. The final results are displayed visually on the screen.
 
 ## Tech Stack
 • Python
+
 • OpenCV
+
 • NumPy
+
 • Pickle
+
 • CvZone
 
 ---------------------------------
