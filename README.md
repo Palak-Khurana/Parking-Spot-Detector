@@ -1,17 +1,19 @@
-# Parking-Spot-Detector
+# 🚗 Parking-Spot-Detector
 
 Real-time detection of free parking spots using computer vision.
+
 This project is a smart parking detection system that uses computer vision to identify available parking spaces in real time from a video feed.
+
 Built with Python and OpenCV, it analyzes parking lot footage and automatically highlights which spots are free and which are occupied, making parking management easier and more efficient.
 
-## Features
+## 📌 Features
 ✓ Real-time parking space detection  
 ✓ Highlights available (green) and occupied (red) slots  
 ✓ Counts total free spaces dynamically  
 ✓ Simple UI using OpenCV  
 ✓ Custom parking slot selection tool 
 
-## How it works
+## 🧠 How It Works
 ### 1. The parking lot video is analyzed one frame at a time.
 ### 2. Several image processing techniques are applied, including:
   ➔ Converting the image to grayscale
@@ -28,7 +30,7 @@ Built with Python and OpenCV, it analyzes parking lot footage and automatically 
 ### 5. A higher pixel count means the spot is occupied.
 ### 6. The final results are displayed visually on the screen.
 
-## Tech Stack
+## 🛠️Tech Stack
 • Python
 
 • OpenCV
