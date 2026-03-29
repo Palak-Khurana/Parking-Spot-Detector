@@ -61,7 +61,6 @@ Built with Python and OpenCV, it analyzes parking lot footage and automatically 
 ### 4. Run Main Detection
 #### python main.py
 
-<<<<<<< HEAD
 ---------------------------------
 
 ## 🎥 Demo
