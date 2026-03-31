@@ -2,7 +2,7 @@
 
 Real-time detection of free parking spots using computer vision.
 
-This project is a smart parking detection system that uses computer vision to identify available parking spaces in real time from a video feed.
+This project is about a parking system that uses cameras to find parking spaces. It looks at video from these cameras. Finds the empty spaces right away. The system is pretty smart because it uses computer vision to do this. The computer vision part is what helps the parking system identify the spaces from the video feeds. This parking system is really good at finding spaces, in real-time, which means it does it very quickly.
 
 Built with Python and OpenCV, it analyzes parking lot footage and automatically highlights which spots are free and which are occupied, making parking management easier and more efficient.
 
@@ -30,7 +30,7 @@ Built with Python and OpenCV, it analyzes parking lot footage and automatically 
 ### 5. A higher pixel count means the spot is occupied.
 ### 6. The final results are displayed visually on the screen.
 
-## 🛠️Tech Stack
+## 🛠️ Tech Stack
 • Python
 
 • OpenCV
@@ -40,6 +40,16 @@ Built with Python and OpenCV, it analyzes parking lot footage and automatically 
 • Pickle
 
 • CvZone
+
+## 🎯 Use Cases
+• Smart parking systems in malls and offices  
+• Traffic management in crowded areas  
+• Reducing time spent searching for parking  
+
+## 🚀 Future Improvements
+• Integration with mobile app for live parking updates  
+• Use of deep learning models for higher accuracy  
+• Cloud-based deployment for scalability  
 
 ---------------------------------
 
