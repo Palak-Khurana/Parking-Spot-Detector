@@ -1,3 +1,4 @@
+#Works with realtime video feed and detects parking spaces in the video feed.
 import cv2
 import pickle
 import cvzone
